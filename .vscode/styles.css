@@ -1,0 +1,73 @@
+
+body {
+    background-color: #ededed;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background-color: white;
+    text-align: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+h1 {
+    margin: 0;
+    font-size: 24px;
+    /* Representa el recuadro verde de tu guía */
+    display: inline-block;
+}
+
+
+.feed-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+}
+
+
+.post {
+    background-color: white;
+    width: 600px;
+    margin-bottom: 50px;
+    border: 1px solid #ccc;
+}
+
+
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+}
+
+.post-header h2 {
+    font-size: 18px;
+    margin: 0;
+}
+
+.post-header span {
+    color: #999;
+    font-size: 14px;
+}
+
+
+.post-image img {
+    width: 100%;
+    display: block; 
+}
+
+
+.post-body {
+    padding: 15px;
+}
+
+.post-body p {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.4;
+}
